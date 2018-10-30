@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+/* -------------------- header -------------------- */
+
+.container-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    /* position: fixed; */
+    
+}
+
+.container-header> .logo img{
+    /* background-image: url("../images/spotify-logo.png"); */
+    /* padding: 28px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 132px;
+    height: 40px;
+    
+}
+    
+.container-header > .menu-lista {
+    display: flex;
+    /* margin-right: -17px; */
+    justify-content: space-around;
+    padding: 28px 17px;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.menu-lista > li > a{
+    padding: 10px 32px;
+}
+
+.menu-lista > li > a:hover{
+    color: rgba(0,205,118);
+}
+
+/* -------------------- main -------------------- */
+
+.container-main{
+    background-image: url(https://www.scdn.co/i/home/hero-burst.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-itens: center;
+    /* o problema do main não abrir é que tem que aumentar as padding da class container-main */
+}
+
+.container-main{
+    align-items: center;
+}
