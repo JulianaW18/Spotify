@@ -9,14 +9,21 @@
     
 }
 
+body{
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+}
+
 /* -------------------- header -------------------- */
 
 .container-header{
     display: flex;
     justify-content: space-around;
     background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
-    /* position: fixed; */
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    font-weight: bold;
     
 }
 
@@ -56,10 +63,71 @@ a{
     background-image: url(https://www.scdn.co/i/home/hero-burst.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    align-itens: center;
+    width: 1610px;
+    height: 1523px;
+    background-position: top -410px center;
     /* o problema do main não abrir é que tem que aumentar as padding da class container-main */
+    text-align: center;
+    margin: 0 auto; 
+    /* z-index: 1; */
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: white;
 }
 
-.container-main{
-    align-items: center;
+h1{
+    font-size: 80px;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 2%;
+    font-size: 19px;
+}
+
+.botao2{
+   color: white;
+    background-color: #1DB954;
+    padding: 16px 48px 18px;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+
+/* * -------------------- footer -------------------- */ 
+
+footer{
+    background-color: black;
+    color: white;
+    flex-direction: column;
+}
+
+.container-footer > nav{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-footer > nav > .legal{
+    display: flex;
+    padding: 28px 17px;
+    justify-content: space-around;
+    
+}
+
+.container-footer > .footer3 > div > ol > li:first-child{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container-footer > .footer3 > .redes{
+    display: flex;
+    justify-content: space-around;
+}   
+
+.legal > li{
+padding: 10px 32px;
 }
